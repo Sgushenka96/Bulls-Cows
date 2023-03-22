@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/trying_header">
+
+
+        <ListPreference
+
+
+            app:key="@string/length_number_default"
+            app:title="Length of number"
+            app:defaultValue="4"
+            app:entryValues="@array/length_number"
+            app:entries="@array/length_number"
+
+            app:useSimpleSummaryProvider="true"
+            />
+        <SwitchPreferenceCompat
+
+            app:defaultValue="true"
+            app:key="switch_trying"
+            app:selectable="true"
+            app:title="limited number of attempts" />
+
+        <EditTextPreference
+            app:key="@string/trying_count"
+            app:dependency="switch_trying"
+            app:title="Number of attempts"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="9"
+
+
+            />
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/history_header">
+
+        <EditTextPreference
+            app:title="I didn't understand...  What are you doing in my refrigerator? "
+            />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

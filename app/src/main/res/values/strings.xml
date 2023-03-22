@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Bulls &amp; Cows</string>
+    <integer name="out_Bulls">0</integer>
+    <string-array name="items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+    <string name="head_app">BULL &amp; COWS</string>
+    <string name="bull_amp_cows"><![CDATA[BULL & COWS]]></string>
+    <integer name="count_bulls">0</integer>
+    <integer name="count_cows">0</integer>
+    <integer name="last_steps">0</integer>
+    <string name="check_out_warn" />
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Menu Param -->
+    <string name="menu_title">Settings</string>
+
+
+    <!-- Preference Titles -->
+    <string name="trying_header">Game settings</string>
+    <string name="history_header">Last games</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+    <string name="length_number_default">9</string>
+    <string name="trying_count"></string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
